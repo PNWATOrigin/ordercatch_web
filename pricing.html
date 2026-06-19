@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>오더캐치 · 요금제</title>
+<meta name="description" content="월 주문량 기준으로 무료 시작 → 건당 할인 → 대량 처리. 기본·스탠다드·프로 요금제." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="pricing">
+
+  <!-- GNB -->
+  <header class="gnb">
+    <div class="container gnb__inner">
+      <a class="gnb__logo" href="index.html"><svg class="logo-mark" viewBox="0 0 30 26" fill="none" aria-hidden="true"><path d="M16.185 0H29.9L28.5896 7.4841C31.1311 12.7907 29.8779 18.8656 25.675 22.6772C21.4656 26.4953 15.1866 27.1323 10.3285 24.0214L12.3929 21.892C16.4151 24.0812 21.2251 23.296 24.2983 19.994C27.2246 16.8493 27.8135 12.0562 25.6048 8.1471L26.2899 2.9315L16.237 2.9926C13.1716 3.0108 10.4143 4.784 8.5137 7.3801H16.172L13.2626 10.3428H4.1145C5.4236 4.6267 10.3857 0.0299 16.185 0Z" fill="currentColor"/><path d="M19.0905 15.0631L22.984 11.0071L25.1251 13.0806L18.6134 19.643L12.8752 13.9386L19.3284 7.36707L21.4357 9.37167L17.5266 13.2977L19.0905 15.0631Z" fill="currentColor"/><path d="M4.6631 26H0.6331L8.2277 18.187H0L4.2835 15.3218H11.4387L12.9506 17.6423L4.6631 26Z" fill="currentColor"/></svg>오더캐치</a>
+      <nav class="gnb__right">
+        <ul class="gnb__menu">
+          <li><a class="gnb__link" href="index.html">홈</a></li>
+          <li><a class="gnb__link" href="features.html">기능</a></li>
+          <li><a class="gnb__link gnb__link--active" href="pricing.html">요금제</a></li>
+        </ul>
+        <a class="btn btn--outline btn--sm" href="#contact">문의하기</a>
+      </nav>
+      <button class="gnb__toggle" aria-label="메뉴"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3D3D44" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </header>
+
+  <!-- PRICING header -->
+  <section class="hero">
+    <div class="container" style="padding-block:clamp(56px,7vw,80px)">
+      <div class="shead reveal">
+        <span class="eyebrow"><span class="eyebrow__dot"></span>PRICING</span>
+        <h1 class="h-lg">과금 구조는 단순할수록<br>도입 장벽이 낮아집니다</h1>
+        <p class="body-lg t-muted">월 주문량 기준으로 무료 시작 → 건당 할인 → 대량 처리</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS -->
+  <section class="section section--tint" style="padding-top:8px">
+    <div class="container">
+      <div class="plans">
+        <!-- 기본 -->
+        <div class="plan">
+          <div class="plan__slot"></div>
+          <div class="plan__name">기본</div>
+          <div class="plan__price">월 0원</div>
+          <span class="plan__per">건당 70원</span>
+          <div class="plan__divider"></div>
+          <ul class="plan__feats">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>소량 주문에 적합</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>월정액 없음</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>가입 시 무료 포인트 제공</li>
+          </ul>
+          <a class="btn btn--outline" href="#contact">시작하기</a>
+        </div>
+
+        <!-- 스탠다드 (추천) -->
+        <div class="plan plan--rec">
+          <div class="plan__slot"><span class="plan__rec-badge">추천</span></div>
+          <div class="plan__name">스탠다드</div>
+          <div class="plan__price">월 9,900원</div>
+          <span class="plan__per">건당 40원</span>
+          <div class="plan__divider"></div>
+          <ul class="plan__feats">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>하루 10~30건 처리</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>엑셀 다운로드 무제한</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>우선 고객 지원</li>
+          </ul>
+          <a class="btn btn--primary" href="#contact">지금 시작하기</a>
+        </div>
+
+        <!-- 프로 -->
+        <div class="plan">
+          <div class="plan__slot"></div>
+          <div class="plan__name">프로</div>
+          <div class="plan__price">월 29,000원</div>
+          <span class="plan__per">건당 20원</span>
+          <div class="plan__divider"></div>
+          <ul class="plan__feats">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>하루 30건 이상</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>건당 최저가</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>대량 처리 최적화</li>
+          </ul>
+          <a class="btn btn--outline" href="#contact">시작하기</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <div><div class="footer__logo"><svg class="logo-mark" viewBox="0 0 30 26" fill="none" aria-hidden="true"><path d="M16.185 0H29.9L28.5896 7.4841C31.1311 12.7907 29.8779 18.8656 25.675 22.6772C21.4656 26.4953 15.1866 27.1323 10.3285 24.0214L12.3929 21.892C16.4151 24.0812 21.2251 23.296 24.2983 19.994C27.2246 16.8493 27.8135 12.0562 25.6048 8.1471L26.2899 2.9315L16.237 2.9926C13.1716 3.0108 10.4143 4.784 8.5137 7.3801H16.172L13.2626 10.3428H4.1145C5.4236 4.6267 10.3857 0.0299 16.185 0Z" fill="currentColor"/><path d="M19.0905 15.0631L22.984 11.0071L25.1251 13.0806L18.6134 19.643L12.8752 13.9386L19.3284 7.36707L21.4357 9.37167L17.5266 13.2977L19.0905 15.0631Z" fill="currentColor"/><path d="M4.6631 26H0.6331L8.2277 18.187H0L4.2835 15.3218H11.4387L12.9506 17.6423L4.6631 26Z" fill="currentColor"/></svg>오더캐치</div><p class="body-sm" style="color:var(--gray-400)">문자 주문을 자동 발주로 바꾸는 AI 오더 플랫폼</p></div>
+        <nav class="footer__nav"><a href="index.html">홈</a><a href="features.html">기능</a><a href="pricing.html">요금제</a></nav>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        <span class="footer__copy">ⓒ 2026 피앤더블유에이티(PNWAT) All rights reserved.</span>
+        <div class="footer__policy"><a href="#">이용약관</a><a href="#">개인정보처리방침</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

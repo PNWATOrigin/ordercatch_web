@@ -1,0 +1,52 @@
+/* ===========================================================
+   Paperlogy (로고 워드마크용)
+   =========================================================== */
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-1Thin.woff2') format('woff2');font-weight:100;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-2ExtraLight.woff2') format('woff2');font-weight:200;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');font-weight:300;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');font-weight:400;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');font-weight:500;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-6SemiBold.woff2') format('woff2');font-weight:600;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');font-weight:700;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');font-weight:800;font-display:swap;}
+@font-face{font-family:'Paperozi';src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');font-weight:900;font-display:swap;}
+
+/* ===========================================================
+   오더캐치 · Design Tokens
+   Figma 변수와 1:1 (color / radius / shadow / layout / type)
+   =========================================================== */
+:root{
+  /* ---- Primary ---- */
+  --primary-50:#F3EDFD;  --primary-100:#E5D7FB; --primary-200:#C9B0F7;
+  --primary-300:#AC88F2; --primary-400:#9560EE; --primary-500:#7D39EB;
+  --primary-600:#6A2BD0; --primary-700:#5621A8; --primary-800:#421980; --primary-900:#2E1159;
+
+  /* ---- Gray ---- */
+  --gray-50:#F7F7F8;  --gray-100:#EFEFF1; --gray-200:#E2E2E6; --gray-300:#CECED4;
+  --gray-400:#A5A5AE; --gray-500:#7A7A85; --gray-600:#56565F; --gray-700:#3D3D44;
+  --gray-800:#2A2A30; --gray-900:#222222;
+
+  /* ---- Danger ---- */
+  --danger-50:#FEF2F2; --danger-100:#FEE2E2; --danger-200:#FECACA;
+  --danger-500:#EF4444; --danger-600:#DC2626;
+
+  /* ---- Base ---- */
+  --black:#222222; --white:#FFFFFF; --bg-tint:#FCFBFD;
+
+  /* ---- Radius ---- */
+  --r-sm:8px; --r-md:10px; --r-lg:14px; --r-xl:16px; --r-2xl:20px; --r-3xl:24px; --r-full:999px;
+
+  /* ---- Shadow ---- */
+  --shadow-sm:0 2px 8px rgba(34,34,40,.05);
+  --shadow-md:0 6px 18px rgba(34,34,40,.07);
+  --shadow-lg:0 16px 40px rgba(125,57,235,.10);
+  --shadow-primary:0 12px 32px rgba(125,57,235,.14);
+
+  /* ---- Layout ---- */
+  --container:1200px;
+  --gutter:clamp(20px, 5vw, 60px);
+  --section-y:clamp(64px, 8vw, 96px);
+
+  /* ---- Motion ---- */
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
